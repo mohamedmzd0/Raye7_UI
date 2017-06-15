@@ -62,12 +62,7 @@ public class MapsActivity extends ActionBarActivity implements OnMapReadyCallbac
         swap = (Button) findViewById(R.id.swap);
         details = (TextView) findViewById(R.id.details);
 
-        from.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            to.requestFocus();
-            }
-        });
+      
         to.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
